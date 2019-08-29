@@ -1,0 +1,25 @@
+---
+label: Photo & Video Template
+hide_body: true
+fields:
+- type: textarea
+  name: img-path
+  label: img-path
+- type: number
+  name: img-count
+  label: img-count
+- type: file
+  name: feat-image-num
+  label: feat-image-num
+- type: number
+  name: video-ready
+  label: video-ready
+- type: text
+  name: unbranded-video-link
+  label: unbranded-video-link
+- type: text
+  name: branded-video-link
+  label: branded-video-link
+- type: text
+  name: header-title
+  label: header-title
