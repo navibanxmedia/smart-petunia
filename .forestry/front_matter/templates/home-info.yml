@@ -1,0 +1,45 @@
+---
+label: Home Info
+hide_body: true
+fields:
+- type: text
+  name: street-address
+  label: street-address
+- type: text
+  name: city
+  label: city
+- type: text
+  name: state
+  label: state
+- type: text
+  name: postal-code
+  label: postal-code
+- type: text
+  name: price
+  label: price
+- type: text
+  name: type
+  label: type
+- type: text
+  name: room-count
+  label: room-count
+- type: text
+  name: bath-count
+  label: bath-count
+- type: text
+  name: sqft
+  label: sqft
+- type: text
+  name: lot-sqft
+  label: lot-sqft
+- type: text
+  name: year-built
+  label: year-built
+- type: text
+  name: description
+  label: description
+- type: file
+  name: photo
+  label: photo
+pages:
+- _data/home-info.json

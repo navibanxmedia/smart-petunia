@@ -1,0 +1,15 @@
+{
+  "street-address": "18501 Via Jose",
+  "city": "Fremont",
+  "state": "CA",
+  "postal-code": 94580,
+  "price": "$1,000,000",
+  "type": "Single Family Home",
+  "room-count": 4,
+  "bath-count": 2.5,
+  "sqft": "3,200",
+  "lot-sqft": "4,500",
+  "year-built": 2008,
+  "description": "Hello World",
+  "photo": "images/avatar.png"
+}
