@@ -23,8 +23,10 @@ fields:
 - type: number
   name: room-count
   label: Number of Rooms
-- type: datetime
-  name: bath-count
+- name: bath-count
+  type: text
+  config:
+    required: false
   label: Number of Bathrooms
 - type: text
   name: sqft
