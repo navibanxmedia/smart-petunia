@@ -4,40 +4,41 @@ hide_body: true
 fields:
 - type: text
   name: street-address
-  label: street-address
+  label: Street Address
 - type: text
   name: city
-  label: city
+  label: City
 - type: text
   name: state
-  label: state
+  label: State
 - type: number
   name: postal-code
-  label: postal-code
+  label: Postal Code
 - type: text
   name: price
-  label: price
+  label: Price
 - type: text
   name: type
-  label: type
+  label: Property Type (Ex. Single Family Home)
 - type: number
   name: room-count
-  label: room-count
+  label: Number of Rooms
 - type: datetime
   name: bath-count
-  label: bath-count
+  label: Number of Bathrooms
 - type: text
   name: sqft
-  label: sqft
+  label: Area (Living Space)
 - type: text
   name: lot-sqft
-  label: lot-sqft
+  label: Area (Lot)
 - type: number
   name: year-built
-  label: year-built
+  label: Year Built
 - type: textarea
   name: description
-  label: description
+  label: Property Description
 - type: file
   name: photo
-  label: photo
+  label: Featured Photo
+  hidden: true
