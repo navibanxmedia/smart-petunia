@@ -13,7 +13,7 @@ sections:
   path: _data/agent.json
   label: Agent Info
 - type: heading
-  label: Admin
+  label: Admin Only
 - type: document
   path: _data/media.json
   label: Photo & Video
