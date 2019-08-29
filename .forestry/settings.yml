@@ -4,11 +4,16 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d67224ca5449400114b33fb/webhook/forestry
 sections:
+- type: heading
+  label: My Listing
+- type: document
+  path: _data/home-info.json
+  label: Property Info
+  match: "**/*"
 - type: document
   path: _data/agent.json
   label: Agent Info
-- type: heading
-  label: My Listing
+  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
