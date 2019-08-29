@@ -9,11 +9,9 @@ sections:
 - type: document
   path: _data/home-info.json
   label: Property Info
-  match: "**/*"
 - type: document
   path: _data/agent.json
   label: Agent Info
-  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
