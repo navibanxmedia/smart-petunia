@@ -1,0 +1,43 @@
+---
+label: Property Info Template
+hide_body: true
+fields:
+- type: text
+  name: street-address
+  label: street-address
+- type: text
+  name: city
+  label: city
+- type: text
+  name: state
+  label: state
+- type: number
+  name: postal-code
+  label: postal-code
+- type: text
+  name: price
+  label: price
+- type: text
+  name: type
+  label: type
+- type: number
+  name: room-count
+  label: room-count
+- type: datetime
+  name: bath-count
+  label: bath-count
+- type: text
+  name: sqft
+  label: sqft
+- type: text
+  name: lot-sqft
+  label: lot-sqft
+- type: number
+  name: year-built
+  label: year-built
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: photo
+  label: photo
