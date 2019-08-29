@@ -41,3 +41,5 @@ fields:
 - type: file
   name: photo
   label: photo
+pages:
+- _data/home-info.json
