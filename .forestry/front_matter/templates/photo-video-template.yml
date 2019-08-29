@@ -4,22 +4,23 @@ hide_body: true
 fields:
 - type: textarea
   name: img-path
-  label: img-path
+  label: Image Path (Without file number)
 - type: number
   name: img-count
-  label: img-count
+  label: Total Image Count
 - type: file
   name: feat-image-num
-  label: feat-image-num
+  label: Featured Image
 - type: number
   name: video-ready
-  label: video-ready
+  label: Videos Uploaded on Vimeo?
+  description: Binary true or false (1 or 0)
 - type: text
   name: unbranded-video-link
-  label: unbranded-video-link
+  label: Unbranded Video Link
 - type: text
   name: branded-video-link
-  label: branded-video-link
+  label: Branded Video Link
 - type: text
   name: header-title
-  label: header-title
+  label: Header Title
