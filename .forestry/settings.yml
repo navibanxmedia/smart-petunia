@@ -17,7 +17,6 @@ sections:
 - type: document
   path: _data/media.json
   label: Photo & Video
-  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
